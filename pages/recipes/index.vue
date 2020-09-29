@@ -33,6 +33,12 @@ export default {
                             title: "Champagne",
                             previewText: "Awsome Alcohol!",
                             thumbnail: "https://www.illust-box.jp/db_img/sozai/00009/95945/watermark.jpg"
+                        },
+                        {
+                            id: "3",
+                            title: "Champagne",
+                            previewText: "Awsome Alcohol!",
+                            thumbnail: "https://www.illust-box.jp/db_img/sozai/00009/95945/watermark.jpg"
                         }
                     ]
                 })

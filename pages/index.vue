@@ -1,27 +1,15 @@
 <template>
   <section class="container">
-    <div>
-      <img class="main-image" :src="images.thumbnail" alt="">
-    </div>
+    <MainImage />
   </section>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import MainImage from '@/components/MainImage'
 
 export default {
-  asyncData() {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve({
-                    images: [
-                        {
-                            thumbnail: "https://www.illust-box.jp/db_img/sozai/00013/139672/watermark.jpg"
-                        }
-                    ]
-                })
-            })
-        })
+    components: {
+        MainImage
     }
 }
 </script>
@@ -34,11 +22,5 @@ export default {
     text-align: center;
     flex-flow: column;
     padding: 30px;
-}
-
-.main-image {
-    width: 500px;
-    height: 300px;
-    margin: 32px;
 }
 </style>

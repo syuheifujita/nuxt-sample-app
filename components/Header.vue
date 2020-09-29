@@ -13,7 +13,7 @@
 <style scoped>
 header {
     width: 100%;
-    height: 30px;
+    height: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

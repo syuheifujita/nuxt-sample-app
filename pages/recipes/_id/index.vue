@@ -48,9 +48,7 @@ export default {
 }
 
 .recipe-image {
-    width: 300px;
-    height: 450px;
-    margin: 32px;
+    width: 60%;
 }
 
 </style>
