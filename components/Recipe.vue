@@ -26,7 +26,7 @@ h1, p {
     color: royalblue;
     width: 180px;
     height: 300px;
-    margin: 32px;
+    margin: 64px;
 }
 
 .thumbnail {

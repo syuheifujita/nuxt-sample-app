@@ -30,7 +30,8 @@ ul {
 }
 
 li {
-    margin: 0 10px;
+    margin: 10px 10px;
+    font-weight: bold;
 }
 
 a {

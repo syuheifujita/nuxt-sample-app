@@ -1,21 +1,50 @@
 <template>
   <div>
-    <Header />
-    <Nuxt />
+    <div>
+      <Header />
+    </div>
+    <div class="site-all">
+      <div class="site-content">
+        <Nuxt />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
-    Header  
+    Header,
+    Footer
   }
 }
 </script>
 
 <style>
+div {
+  font-family: serif;
+}
+
+main {
+  margin-bottom: 10%;
+}
+
+.site-all {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -64,3 +93,4 @@ html {
   background-color: #35495e;
 }
 </style>
+s

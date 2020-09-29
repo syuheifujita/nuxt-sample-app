@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <MainImage />
+    <h1>Alcohol</h1>
   </section>
 </template>
 
@@ -15,6 +16,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 80px;
+}
+
 .container {
     display: flex;
     justify-content: center;

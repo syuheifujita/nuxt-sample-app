@@ -1,11 +1,6 @@
 <template>
     <section class="about">
         <p>This Site is Alcohols of Recipe for everyone！</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>@syuheifujiya All Rights Reserved．</p>
     </section>
 </template>
 
