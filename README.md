@@ -1,5 +1,5 @@
 ## Demo
-<image src="https://user-images.githubusercontent.com/38001967/94610755-bc966b80-02db-11eb-959c-0fa6f14bda23.gif" width="80%" />
+<image src="https://user-images.githubusercontent.com/38001967/94610755-bc966b80-02db-11eb-959c-0fa6f14bda23.gif" width="70%" />
 
 ## Build Setup
 
