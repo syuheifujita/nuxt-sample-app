@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div>
+    <div class="site-header">
       <Header />
     </div>
     <div class="site-all">
       <div class="site-content">
         <Nuxt />
       </div>
-      <div>
+      <div class="site-footer">
         <Footer />
       </div>
     </div>
@@ -31,10 +31,6 @@ div {
   font-family: serif;
 }
 
-main {
-  margin-bottom: 10%;
-}
-
 .site-all {
   min-height: 100vh;
   display: flex;
@@ -43,6 +39,13 @@ main {
 
 .site-content {
   flex: 1;
+  margin: 20%;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 html {
