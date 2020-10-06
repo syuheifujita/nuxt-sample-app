@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="site-header">
-      <Header />
+      <Navbar />
     </div>
     <div class="site-all">
       <div class="site-content">
@@ -15,21 +15,21 @@
 </template>
 
 <script>
-import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export default {
   components: {
-    Header,
+    Navbar,
     Footer
   }
 }
 </script>
 
 <style>
-div {
+/* div {
   font-family: serif;
-}
+} */
 
 .site-all {
   min-height: 100vh;
@@ -96,4 +96,3 @@ html {
   background-color: #35495e;
 }
 </style>
-s
