@@ -52,6 +52,7 @@ export default {
   build: {},
 
   env: {
-    API_KEY
+    API_KEY,
+    baseUrl: process.env.BASE_URL || 'https://nuxt-sample.microcms.io'
   }
 }
