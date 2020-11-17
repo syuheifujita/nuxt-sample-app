@@ -14,13 +14,13 @@
       <div class="article-box" v-for="content in contents" :key="content.id">
         <nuxt-link :to="`/otherRecipes` + `/${content.id}`">
           <div>
-            <img src="
-            ../static/favicon.ico" alt="">
+            <img :src="content.image.url" alt="">
           </div>
           <div class="article-title">
             {{ content.title }}
+                        <!-- {{ content }} -->
           </div>
-          <div class="article-text" v-html="content.body"></div>
+          <div class="article-text" v-html="content.overview"></div>
         </nuxt-link>
       </div>
     </div>
