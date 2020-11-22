@@ -1,24 +1,14 @@
 <template>
   <div class="articles">
-    <!-- <ul>
-      <l v-for="content in contents" :key="content.id">
-          <nuxt-link :to="`/otherRecipes` + `/${content.id}`">
-              <div>
-                {{ content.title }}
-              </div>
-              <div class="post" v-html="content.body"></div>
-          </nuxt-link>
-      </l>
-    </ul> -->
     <div class="article-wrapper">
       <div class="article-box" v-for="content in contents" :key="content.id">
         <nuxt-link :to="`/otherRecipes` + `/${content.id}`">
           <div>
+            <!-- なんで、 :srcこうかくと、読み込めるんだろう... -->
             <img :src="content.image.url" alt="">
           </div>
           <div class="article-title">
             {{ content.title }}
-                        <!-- {{ content }} -->
           </div>
           <div class="article-text" v-html="content.overview"></div>
         </nuxt-link>
